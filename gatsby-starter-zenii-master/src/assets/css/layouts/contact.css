@@ -1,0 +1,24 @@
+.contact__content {
+    @apply w-full;
+}
+
+.contact__image {
+    @apply hidden w-full;
+}
+
+.contact__image-wrap {
+    max-height: 265px;
+    max-width: 330px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+    @apply mx-auto;
+}
+
+@screen md {
+    .contact__content {
+        @apply w-1/2;
+    }
+
+    .contact__image {
+        @apply block w-1/2;
+    }
+}

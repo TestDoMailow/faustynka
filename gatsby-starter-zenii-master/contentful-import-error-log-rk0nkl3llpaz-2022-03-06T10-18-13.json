@@ -1,0 +1,32 @@
+[
+  {
+    "ts": "2022-03-06T09:18:51.728Z",
+    "level": "error",
+    "error": {
+      "originalError": {
+        "name": "AccessTokenInvalid",
+        "message": "{\n  \"status\": 403,\n  \"statusText\": \"Forbidden\",\n  \"message\": \"The access token you sent could not be found or is invalid.\",\n  \"details\": {},\n  \"request\": {\n    \"url\": \"rk0nkl3llpaz\",\n    \"headers\": {\n      \"Accept\": \"application/json, text/plain, */*\",\n      \"Content-Type\": \"application/vnd.contentful.management.v1+json\",\n      \"X-Contentful-User-Agent\": \"app contentful.import/7.9.6; feature library-import; sdk contentful-management.js/6.1.1; platform node.js/v16.13.1; os Windows/10.0.19044;\",\n      \"Authorization\": \"Bearer ...iVf3I\",\n      \"user-agent\": \"node.js/v16.13.1\",\n      \"Accept-Encoding\": \"gzip\"\n    },\n    \"method\": \"get\"\n  },\n  \"requestId\": \"5bd8cd87-01b5-423a-810a-a6a9a47e61d5\"\n}"
+      },
+      "data": {
+        "status": 403,
+        "statusText": "Forbidden",
+        "message": "The access token you sent could not be found or is invalid.",
+        "details": {
+        },
+        "request": {
+          "url": "rk0nkl3llpaz",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/7.9.6; feature library-import; sdk contentful-management.js/6.1.1; platform node.js/v16.13.1; os Windows/10.0.19044;",
+            "Authorization": "Bearer ...iVf3I",
+            "user-agent": "node.js/v16.13.1",
+            "Accept-Encoding": "gzip"
+          },
+          "method": "get"
+        },
+        "requestId": "5bd8cd87-01b5-423a-810a-a6a9a47e61d5"
+      }
+    }
+  }
+]
